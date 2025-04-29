@@ -1,6 +1,9 @@
 body {
   background-size: cover;
   font-weight: 500;
+  background: url(physics_back.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 p {
@@ -32,3 +35,38 @@ table {
 ul {
   list-style-image: url('physics_icon.png');
 }
+
+
+#teller-span{
+  font-weight: 800;
+}
+
+#teller-span:hover{
+  color: red;
+}
+
+#teller_kep{
+  float: right;
+  width: 260px;
+  margin-left: 20px;
+}
+
+table td{
+  border-bottom: 1px gray solid;
+  padding: 10px;
+  text-align: center;
+}
+
+table th{
+  color: white;
+  background-color: gray;
+  text-align: center;
+}
+
+a:hover,a{
+  text-decoration: none;
+}
+
+
+
+
